@@ -1,0 +1,62 @@
+TIDY = tidy
+CHMOD = chmod
+CHGRP = chgrp
+TEX = etex
+DVIPS = dvips
+A2PS = a2ps
+PDFTEX = pdfetex
+XMLLINT = xmllint
+XSLTPROC = xsltproc
+
+RESUME_DTD = resume.dtd
+
+XML_RESUME = mw.resume
+XML_LINT_RESUME = mw.lint.resume
+TEXT_RESUME = mw.txt
+TEXT_PS_RESUME = mw.txt.ps
+UNTIDY_HTML_RESUME = mw.untidy.html
+HTML_RESUME = mw.html
+TEX_RESUME = mw.tex
+TEX_LOG = mw.log
+DVI_RESUME = mw.dvi
+PS_RESUME = mw.ps
+PDF_RESUME = mw.pdf
+
+TEXT_XSL = resume.txt.xsl
+HTML_XSL = resume.html.xsl
+TEX_XSL = resume.tex.xsl
+
+all: $(TEXT_RESUME) $(TEXT_PS_RESUME) $(HTML_RESUME) $(PS_RESUME) $(PDF_RESUME)
+
+$(XML_LINT_RESUME): $(RESUME_DTD) $(XML_RESUME)
+	$(XMLLINT) --valid --output $(XML_LINT_RESUME) --format $(XML_RESUME)
+
+$(TEXT_RESUME): $(TEXT_XSL) $(XML_LINT_RESUME)
+	$(XSLTPROC) --output $(TEXT_RESUME) $(TEXT_XSL) $(XML_LINT_RESUME)
+
+$(TEXT_PS_RESUME): $(TEXT_RESUME)
+	$(A2PS) --no-header --portrait --columns=1 -o $(TEXT_PS_RESUME) $(TEXT_RESUME)
+
+$(HTML_RESUME): $(UNTIDY_HTML_RESUME)
+	$(TIDY) -e $(UNTIDY_HTML_RESUME)
+	$(TIDY) -i $(UNTIDY_HTML_RESUME) > $(HTML_RESUME)
+	$(CHMOD) 640 $(HTML_RESUME)
+	$(CHGRP) apache $(HTML_RESUME)
+
+$(UNTIDY_HTML_RESUME): $(HTML_XSL) $(XML_LINT_RESUME)
+	$(XSLTPROC) --output $(UNTIDY_HTML_RESUME) $(HTML_XSL) $(XML_LINT_RESUME)
+
+$(TEX_RESUME): $(TEX_XSL) $(XML_LINT_RESUME)
+	$(XSLTPROC) --output $(TEX_RESUME) $(TEX_XSL) $(XML_LINT_RESUME)
+
+$(DVI_RESUME): $(TEX_RESUME)
+	$(TEX) $(TEX_RESUME)
+
+$(PS_RESUME): $(DVI_RESUME)
+	$(DVIPS) -o $(PS_RESUME) $(DVI_RESUME)
+
+$(PDF_RESUME): $(TEX_RESUME)
+	$(PDFTEX) $(TEX_RESUME)
+
+clean:
+	rm -f $(TEXT_RESUME) $(HTML_RESUME) $(UNTIDY_HTML_RESUME) $(TEX_RESUME) $(TEX_LOG) $(DVI_RESUME) $(PS_RESUME) $(XML_LINT_RESUME) > /dev/null 2>&1

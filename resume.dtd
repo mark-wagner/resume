@@ -1,0 +1,168 @@
+<!--
+
+     common tags
+
+-->
+
+<!ENTITY % simple_text "url">
+
+<!ELEMENT url (#PCDATA)>
+<!ATTLIST url
+  href CDATA #REQUIRED
+>
+
+<!ELEMENT para (#PCDATA | %simple_text;)*>
+<!ELEMENT title (#PCDATA | %simple_text;)*>
+<!ELEMENT description (#PCDATA | %simple_text; | item)*>
+<!ELEMENT item (#PCDATA | %simple_text;)*>
+
+<!ELEMENT present EMPTY>
+<!ELEMENT period (from, to)>
+<!ELEMENT from (date | present)>
+<!ELEMENT to (date | present)>
+<!ELEMENT date (month, year)>
+<!ELEMENT month (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+
+<!ELEMENT space EMPTY>
+
+<!--
+
+     resume
+
+-->
+
+<!ELEMENT resume (header, (objective | skills | employment | academics)*, keywords?)>
+
+<!--
+   
+     header
+
+-->
+
+<!ELEMENT header (name, address?, contact?)>
+
+<!--
+     name
+-->
+
+<!ELEMENT name (firstname, surname)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+
+<!--
+     address
+-->
+
+<!ELEMENT address (addr_line+)>
+
+<!ENTITY % addr_elements "street | city | state | zip | postal_code |
+number | country | locality | house | prefecture | burrough | parish |
+building | floor | room | flat | town | village | district | farm |
+community | society | metroplex | county | apartment | suite | unit">
+
+<!ELEMENT addr_line (#PCDATA | %addr_elements;)*>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT postal_code (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT locality (#PCDATA)>
+<!ELEMENT house (#PCDATA)>
+<!ELEMENT prefecture (#PCDATA)>
+<!ELEMENT burrough (#PCDATA)>
+<!ELEMENT parish (#PCDATA)>
+<!ELEMENT building (#PCDATA)>
+<!ELEMENT floor (#PCDATA)>
+<!ELEMENT room (#PCDATA)>
+<!ELEMENT flat (#PCDATA)>
+<!ELEMENT town (#PCDATA)>
+<!ELEMENT village (#PCDATA)>
+<!ELEMENT district (#PCDATA)>
+<!ELEMENT farm (#PCDATA)>
+<!ELEMENT community (#PCDATA)>
+<!ELEMENT society (#PCDATA)>
+<!ELEMENT metroplex (#PCDATA)>
+<!ELEMENT county (#PCDATA)>
+<!ELEMENT apartment (#PCDATA)>
+<!ELEMENT suite (#PCDATA)>
+<!ELEMENT unit (#PCDATA)>
+
+<!--
+     contact
+-->
+
+<!ELEMENT contact (phone?, email?, website?)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT website (#PCDATA)>
+
+<!--
+
+    objective
+
+-->
+
+<!ELEMENT objective (#PCDATA | %simple_text;)*>
+
+<!--
+
+     skills
+
+-->
+
+<!ELEMENT skills (skill+)>
+<!ELEMENT skill (title, description)>
+
+<!--
+
+     employment
+
+-->
+
+<!ELEMENT employment (job+)>
+<!ELEMENT job (title, employer, period, description?)>
+<!ELEMENT employer (#PCDATA)>
+
+<!--
+
+     academics
+
+-->
+
+<!ELEMENT academics ((training | degrees | certifications)+)>
+
+<!--
+     training
+-->
+<!ELEMENT training (class+)>
+<!ELEMENT class (#PCDATA | %simple_text;)*>
+
+<!--
+     certifications
+-->
+<!ELEMENT certifications (certification+)>
+<!ELEMENT certification (#PCDATA | %simple_text;)*>
+
+<!--
+     degrees
+-->
+
+<!ELEMENT degrees (degree+)>
+<!ELEMENT degree (level?, subject, institution, (date | period), coursework?)>
+<!ELEMENT level (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+<!ELEMENT institution (#PCDATA)>
+<!ELEMENT coursework (#PCDATA | %simple_text; | item)*>
+
+<!--
+
+     keywords
+
+-->
+
+<!ELEMENT keywords (keyword+)>
+<!ELEMENT keyword (#PCDATA)>
+
