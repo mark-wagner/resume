@@ -38,15 +38,11 @@
 
       <title>Operations</title>
 
-      <description>Deep experience managing Linux operating systems
-      and critial infrastrucure services. Emphasis on full lifecycle
-      automation. Diagnosed and resolved issues in complex distributed.
-
-      OS and infra services, kubernetes, automation, troubleshooting, CI/CD, releaes, cloud computing
-
-	Over ten years of experience supporting Linux
-      servers. Understanding of system operation down to the kernel
-      level.</description>
+      <description>Deep experience managing Linux systems and critial
+      infrastrucure services. Emphasis on full lifecycle
+      automation. Resolved issues in complex distributed systems
+      including self-managed datacenters and cloud
+      environments.</description>
 
     </skill>
 
@@ -54,10 +50,14 @@
 
       <title>Software Development</title>
 
-      <description>ruby python, C, software design principle algorithms
+      <description>Experienced python and ruby developer. Can analyze
+      and debug applications written in many other langiages including
+      C, javascript, PHP, and perl.
 
-	Knowledge and experience with Perl, Ruby, Python,
-      and shell scripts. Knowledge of PHP, C, and Java.</description>
+      - something about CI/CD/testing
+      - something about software design principle / algorithms
+
+</description>
 
     </skill>
 
@@ -65,11 +65,8 @@
 
       <title>Security</title>
 
-      <description>Secured Internet-facing systems. Knowledge of
-      current network, application, and operating system security
-      tools and issues. Implemented systems in ISO 27001, PCI DSS,
-      and HIPPA environments.
-      </description>
+      <description>Secured Internet-facing systems. Achieved ISO 27001, PCI DSS,
+      and HIPPA compliance for computing systems.</description>
 
     </skill>
 
