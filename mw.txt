@@ -1,0 +1,150 @@
+                              Mark Wagner
+
+                            (206) 354-9071
+                           mark@lanfear.net
+
+Objective
+
+To obtain a Unix system administrator position that builds and
+maintains valuable and robust computing environments through
+automation, proactive processes, and standardized procedures.
+
+Skills
+
+  * System Administration: Over ten years of experience supporting
+    Linux servers, including Red Hat Enterprise Linux and Ubuntu
+    Server. Additional experience with Solaris, FreeBSD, and other
+    Unix-based operating systems. Understanding of system operation
+    down to the kernel level.
+  * Security: Secured Internet-facing systems. Knowledge of current
+    network, application, and operating system security tools and
+    issues. Designed packet filtering firewalls.
+  * Programming and Scripting: Knowledge and experience with Perl,
+    Ruby, Python, and shell scripts. Knowledge of PHP, C, and Java.
+
+Employment
+
+Senior Operations Engineer
+Skytap, Inc.
+November 2013 to the present
+  * Supported Skytap's global cloud hosting platform based on VMware
+    ESXi, Linux, Solaris, HP hardware, and 3PAR block storage.
+  * Improved hardware provisioning speed by creating installation
+    checklists and writing scripts to automate device testing and
+    configuration.
+  * Automated operating system deployment and configuration with
+    Foreman and Puppet.
+  * Configured and maintained network infrastructure such as IPSEC
+    VPNs, F5 BigIP load balancers, Juniper routers, and Cisco Nexus
+    switches.
+
+Senior System Administrator
+Point Inside, Inc.
+February 2013 to November 2013
+  * Managed AWS resources (EC2, VPC, RDS, SQS, SNS, CloudWatch) with
+    command line tools and custom Ruby scripts using the AWS SDK.
+  * Designed and implemented scalable architecture with AWS Auto
+    Scaling.
+  * Maintained infrastructure with chef. Wrote custom chef cookbooks.
+  * Wrote release automation scripts.
+  * Diagnosed and helped resolve HAProxy, Apache, Tomcat, and Solr
+    issues at the network, server, and application levels.
+  * Mentored and trained junior system administrators.
+  * Researched new AWS services and other cloud technologies.
+
+Senior System Administrator
+Intelius, Inc.
+July 2010 to February 2013
+  * Identified and resolved system faults and performance problems by
+    debugging PHP code, running Apache under a debugger, examining
+    MySQL statistics, and analyzing OS and kernel metrics.
+  * Analyzed, documented, and remediated PCI compliance issues.
+  * Evaluated hybrid cloud systems and implemented the OpenNebula /
+    KVM platform.
+  * Installed and administered a Hadoop cluster.
+  * Handled custom compilation and deployment of Apache, PHP, and
+    other software packages.
+  * Maintained configuration of the SEC log analysis system, BIND DNS
+    servers, and cfengine configuration management software.
+  * Administered SAN and NAS storage systems.
+  * Researched and prototyped new system administration software and
+    methodologies.
+  * Served as a backup MySQL DBA. Wrote automated database publishing
+    scripts.
+
+Senior Systems Administrator
+Infopia, Inc.
+December 2008 to March 2010
+  * System and SAN administrator for servers running Infopia's
+    business-critical ecommerce SaaS system.
+  * Planned and implemented data center migration from managed hosting
+    to new servers in a self-hosted environment.
+  * Installed and configured infrastructure servers: DNS, mail, LDAP,
+    backup, and monitoring.
+
+Systems Programmer
+University of Washington Medical Center
+October 2001 to December 2008
+  * Lead development of enterprise-wide Linux standard.
+  * Developed automated Linux installation and maintenance process.
+  * Trained junior sysadmins.
+  * Handled all aspects of system security in an unsecured,
+    Internet-connected environment, including vulnerability analysis,
+    subnet and host-based firewalls, and system hardening.
+  * Provided support for computer-controlled medical equipment,
+    including imaging modalities and radiation treatment devices.
+  * Provided software installation and support. Compiled software from
+    source. Performed fault analysis using system tools and debuggers.
+  * Performed system capacity planning and hardware acquisition.
+
+Internet Systems Developer and Administrator
+Horvitz Newspapers Inc
+October 1998 to October 2001
+  * Designed and coded automated web site generation and archiving
+    system in Perl.
+  * Webmaster duties: Compiled, installed, troubleshot, and
+    performance tuned Apache.
+  * Security administrator for web sites and firewalls. Evaluated
+    Internet-related security risks. Set up and maintained Linux-based
+    firewalls.
+  * Installed and maintained DNS, ftp, monitoring, and backup servers
+    and Sun and x86 hardware.
+
+Fraud Application Support
+AT&T Wireless Services Inc
+January 1998 to October 1998
+  * Provided technical support to customers (Los Angeles Cellular,
+    Cantel).
+  * Planned projects and solved problems in a complex environment
+    involving vendor, customer, AT&T, and VAN systems.
+  * Trained support personnel.
+  * Participated in CTIA EDI standards writing process.
+  * Wrote parts of application support guide.
+  * Designed and implemented enhancements to fraud application.
+  * Wrote maintenance scripts in Perl and ksh.
+
+Unix System Administrator
+Ameritech Communications Inc
+May 1996 to August 1997
+  * Administered Sun and HP servers.
+  * Installed and tuned Solaris.
+  * Installed and upgraded hardware.
+
+Education
+
+Master of Science, Computer Science
+University of Washington-Seattle
+March 2003
+
+Computer Science, Philosophy
+University of Wisconsin-Madison
+August 1992 to May 1996
+
+Bachelor of Arts, Philosophy
+Lawrence University
+June 1992
+
+Certifications
+  * Certificate in Cloud Computing, University of Washington
+
+
