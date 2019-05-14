@@ -108,8 +108,8 @@
       <title>Senior Operations Engineer</title>
       <employer>Skytap, Inc.</employer>
       <period>
-	<from><date><month>November</month> <year>2013</year></date></from>
-        <to><date><month>February</month> <year>2018</year></to>
+        <from><date><month>November</month> <year>2013</year></date></from>
+        <to><date><month>February</month> <year>2018</year></date></to>
       </period>
 
       <description>
@@ -383,53 +383,6 @@
     </certifications>
 
   </academics>
-
-  <keywords>
-    <keyword>Perl</keyword>
-    <keyword>HTTP</keyword>
-    <keyword>database</keyword>
-    <keyword>MySQL</keyword>
-    <keyword>Apache</keyword>
-    <keyword>firewall</keyword>
-    <keyword>packet filter</keyword>
-    <keyword>Internet</keyword>
-    <keyword>security</keyword>
-    <keyword>Solaris</keyword>
-    <keyword>TCP/IP</keyword>
-    <keyword>Linux</keyword>
-    <keyword>FreeBSD</keyword>
-    <keyword>Sun</keyword>
-    <keyword>resume</keyword>
-    <keyword>iptables</keyword>
-    <keyword>DNS</keyword>
-    <keyword>ksh</keyword>
-    <keyword>shell script</keyword>
-    <keyword>C</keyword>
-    <keyword>C++</keyword>
-    <keyword>NFS</keyword>
-    <keyword>sendmail</keyword>
-    <keyword>Unix</keyword>
-    <keyword>IMAP</keyword>
-    <keyword>Sparc</keyword>
-    <keyword>computer science</keyword>
-    <keyword>philosophy</keyword>
-    <keyword>UDP</keyword>
-    <keyword>kickstart</keyword>
-    <keyword>RHEL</keyword>
-    <keyword>RHCE</keyword>
-    <keyword>EMC</keyword>
-    <keyword>Dell</keyword>
-    <keyword>HP</keyword>
-    <keyword>PHP</keyword>
-    <keyword>SAN</keyword>
-    <keyword>hadoop</keyword>
-    <keyword>ganglia</keyword>
-    <keyword>ruby</keyword>
-    <keyword>AWS</keyword>
-    <keyword>EC2</keyword>
-    <keyword>RDS</keyword>
-    <keyword>chef</keyword>
-  </keywords>
 
 </resume>
 
