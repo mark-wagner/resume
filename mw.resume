@@ -39,10 +39,9 @@
       <title>Operations</title>
 
       <description>Deep experience managing Linux systems and critial
-      infrastrucure services. Emphasis on full lifecycle
-      automation. Resolved issues in complex distributed systems
-      including self-managed datacenters and cloud
-      environments.</description>
+      infrastrucure services. Full lifecycle automation. Resoluton of
+      issues in complex distributed systems including self-managed
+      datacenters and cloud environments.</description>
 
     </skill>
 
@@ -52,12 +51,10 @@
 
       <description>Experienced python and ruby developer. Can analyze
       and debug applications written in many other langiages including
-      C, javascript, PHP, and perl.
-
-      - something about CI/CD/testing
-      - something about software design principle / algorithms
-
-</description>
+      C, javascript, PHP, and perl. Efficient development with
+      continuous testing, integatrion, and deployment
+      tools. Theoretical knowldge of software design principles and
+      computer science topics. full lifecycle development, testing, deployment, operations</description>
 
     </skill>
 
@@ -82,47 +79,31 @@
         <to><present /></to>
       </period>
 
-production change approval
-
-mentoring
-
-puppet
-gerrit
-ansible
-backups
-docker
-kubernetes
-CA
-dhcp
-dns
-foreman et al
-ldap
-ntp
-pkg repo
-smtp
-zabbix
-
-elk stack
-TICK stack
-mysql
-grafana
-kubernetes docker
-zabbix
-puppet
-ansible
-
-full lifecycle development, testing, deployment, operations
-python
-ISO 27001/ PCI compliance requirements a plus
-
-work with stakeholders to understand their needs and requirements and turn that
-into a working design
-Strives for automation at every step in the software development lifecycle, from
- datacenter on up
- Improve open source tools for Skytap needs and contribute back to the community
-
-
       <description>
+
+	<item>Approved production changes.</item>
+	<item>Mentored junior engineers.</item>
+	<item>Manged system configuation with puppet.</item>
+	<item>Orchestrated multisystem changes with ansibkle.</item>
+	<item>Managed git source code repositories hosted with github anf locally with gerrit.</item>
+	<item>Designed and implented back up system with given RTO and RPOs.</item>
+	<item>Supported kubernetes container orchestration system with docker as the container implementation.</item>
+	<item>Managed in-house certificate authority.</item>
+	<item>Automated server lifecycle mangement with foreman.</item>
+	<item>Designed and mansged DNS infrastructure.</item>
+	<item>Supported DHCP, LDAP, NTP, and SMTP infrastructure services.</item>
+	<item>Implmented system monitoring with zabbix.</item>
+	<item>Managed Ubuntu package repository mirrors.</item>
+	<item>Supported ELK (Elasticsearch, Logstash, and Kibana) stack.</item>
+	<item>Supported TIG (Telegraf, InfluxDB, Grafana) stack.</item>
+	<item>Served as a mysql DBA, including operation support, performance anaysys, capacity plnning, and high availbility failovers.</item>
+	<item>Worked with cross-team stakeholders to understand their needs and requirements and turn that into a working design.</item>
+	<item>Participated in open soruce projects by providing bug reports, fixes, and helping others.</item>
+
+      </description>
+
+    </job>
+
     <job>
       <title>Senior Operations Engineer</title>
       <employer>Skytap, Inc.</employer>
