@@ -100,11 +100,9 @@
 </xsl:template>
 
 <xsl:template match="job">
-<!--   {\filbreak -->
   \line{{\bigbf <xsl:apply-templates select="title"/>} \hfil <xsl:apply-templates select="period"/>}
   {\parindent = 0pt <xsl:apply-templates select="employer"/>}
   <xsl:apply-templates select="description"/>
-<!--   } -->
   <xsl:if test="position() != last()">
     \medskip
   </xsl:if>
