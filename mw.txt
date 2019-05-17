@@ -115,39 +115,6 @@ October 2001 to December 2008
     source. Performed fault analysis using system tools and debuggers.
   * Performed system capacity planning and hardware acquisition.
 
-Internet Systems Developer and Administrator
-Horvitz Newspapers Inc
-October 1998 to October 2001
-  * Designed and coded automated web site generation and archiving
-    system in Perl.
-  * Webmaster duties: Compiled, installed, troubleshot, and
-    performance tuned Apache.
-  * Security administrator for web sites and firewalls. Evaluated
-    Internet-related security risks. Set up and maintained Linux-based
-    firewalls.
-  * Installed and maintained DNS, ftp, monitoring, and backup servers
-    and Sun and x86 hardware.
-
-Fraud Application Support
-AT&T Wireless Services Inc
-January 1998 to October 1998
-  * Provided technical support to customers (Los Angeles Cellular,
-    Cantel).
-  * Planned projects and solved problems in a complex environment
-    involving vendor, customer, AT&T, and VAN systems.
-  * Trained support personnel.
-  * Participated in CTIA EDI standards writing process.
-  * Wrote parts of application support guide.
-  * Designed and implemented enhancements to fraud application.
-  * Wrote maintenance scripts in Perl and ksh.
-
-Unix System Administrator
-Ameritech Communications Inc
-May 1996 to August 1997
-  * Administered Sun and HP servers.
-  * Installed and tuned Solaris.
-  * Installed and upgraded hardware.
-
 Education
 
 Master of Science, Computer Science
