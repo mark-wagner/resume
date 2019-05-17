@@ -5,35 +5,55 @@
 
 Objective
 
-To obtain a Unix system administrator position that builds and
-maintains valuable and robust computing environments through
-automation, proactive processes, and standardized procedures.
+To obtain position that builds and maintains valuable and robust
+computing environments through automation, repeatable processes, and
+insightful monitoring.
 
 Skills
 
-  * System Administration: Over ten years of experience supporting
-    Linux servers, including Red Hat Enterprise Linux and Ubuntu
-    Server. Additional experience with Solaris, FreeBSD, and other
-    Unix-based operating systems. Understanding of system operation
-    down to the kernel level.
-  * Security: Secured Internet-facing systems. Knowledge of current
-    network, application, and operating system security tools and
-    issues. Designed packet filtering firewalls.
-  * Programming and Scripting: Knowledge and experience with Perl,
-    Ruby, Python, and shell scripts. Knowledge of PHP, C, and Java.
+  * Operations: Deep experience managing Linux systems and critical
+    infrastructure services. Full life-cycle automation. Resolution of
+    issues in complex distributed systems including self-managed data
+    centers and cloud environments.
+  * Software Development: Experienced python and ruby developer. Can
+    analyze and debug applications written in many other languages
+    including C, JavaScript, PHP, and Perl. Efficient development with
+    continuous testing, integration, and deployment tools. Theoretical
+    knowledge of software design principles and computer science
+    topics.
+  * Security: Secured Internet-facing systems. Achieved ISO 27001, PCI
+    DSS, and HIPPA compliance for computing systems.
 
 Employment
 
+Senior Site Reliability Engineer
+Skytap, Inc.
+February 2018 to the present
+  * Approved production changes. Mentored junior engineers.
+  * Managed git source code repositories hosted with GitHub and
+    locally with Gerrit.
+  * Supported Kubernetes container orchestration system with Docker as
+    the container implementation.
+  * Managed DNS, DHCP, LDAP, NTP, SMTP, and certificate authority
+    infrastructure services.
+  * Supported observabity monitoring systems: Zabbix, ELK
+    (Elasticsearch, Logstash, and Kibana) stack and TIG (Telegraf,
+    InfluxDB, Grafana) stack.
+  * Served as a MySQL DBA: provided operational support, analyzed
+    performance, and planned capacity.
+  * Participated in open source projects: filed bug reports, suggested
+    fixes, and helped others.
+
 Senior Operations Engineer
 Skytap, Inc.
-November 2013 to the present
+November 2013 to February 2018
   * Supported Skytap's global cloud hosting platform based on VMware
     ESXi, Linux, Solaris, HP hardware, and 3PAR block storage.
   * Improved hardware provisioning speed by creating installation
     checklists and writing scripts to automate device testing and
     configuration.
-  * Automated operating system deployment and configuration with
-    Foreman and Puppet.
+  * Automated system deployment and configuration with Foreman,
+    Puppet, and Ansible.
   * Configured and maintained network infrastructure such as IPSEC
     VPNs, F5 BigIP load balancers, Juniper routers, and Cisco Nexus
     switches.
