@@ -26,8 +26,8 @@
 
   </header>
 
-  <objective>To obtain position that builds and maintains valuable and
-  robust computing environments through automation, repeatable
+  <objective>To obtain a position that builds and maintains valuable
+  and robust computing environments through automation, repeatable
   processes, and insightful monitoring.</objective>
 
   <skills>
@@ -53,16 +53,6 @@
       continuous testing, integration, and deployment
       tools. Theoretical knowledge of software design principles and
       computer science topics.</description>
-
-    </skill>
-
-    <skill>
-
-      <title>Security</title>
-
-      <description>Secured Internet-facing systems. Achieved ISO
-      27001, PCI DSS, and HIPPA compliance for computing
-      systems.</description>
 
     </skill>
 
