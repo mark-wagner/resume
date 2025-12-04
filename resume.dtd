@@ -32,7 +32,7 @@
 
 -->
 
-<!ELEMENT resume (header, (objective | skills | employment | academics)*, keywords?)>
+<!ELEMENT resume (header, (objective | skills | employment | academics)*>
 
 <!--
    
@@ -118,12 +118,21 @@ community | society | metroplex | county | apartment | suite | unit">
 
 <!--
 
+     keywords
+
+-->
+
+<!ELEMENT keywords (keyword*)>
+<!ELEMENT keyword (#PCDATA)>
+
+<!--
+
      employment
 
 -->
 
 <!ELEMENT employment (job+)>
-<!ELEMENT job (title, employer, period, description?)>
+<!ELEMENT job (title, employer, period, description?, keywords)>
 <!ELEMENT employer (#PCDATA)>
 
 <!--
@@ -165,4 +174,3 @@ community | society | metroplex | county | apartment | suite | unit">
 
 <!ELEMENT keywords (keyword+)>
 <!ELEMENT keyword (#PCDATA)>
-
