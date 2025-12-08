@@ -5,55 +5,60 @@
 
   <header>
 
-  <name>
-    <firstname>Mark</firstname>
-    <surname>Wagner</surname>
-  </name>
+    <name>
+      <firstname>Mark</firstname>
+      <surname>Wagner</surname>
+    </name>
 
-<!--
-  <address>
-    <addr_line><number>605</number> <street>15th Ave E</street>
-    <apartment>Apt 311</apartment></addr_line>
-    <addr_line><city>Seattle</city> <state>WA</state>
-    <zip>98112</zip></addr_line>
-  </address>
--->
-
-  <contact>
-    <phone>(206) 354-9071</phone>
-    <email>mark@lanfear.net</email>
-  </contact>
+    <contact>
+      <phone>(206) 354-9071</phone>
+      <email>mark@lanfear.net</email>
+    </contact>
 
   </header>
 
-  <objective>To obtain a position that builds and maintains valuable
-  and robust computing environments through automation, repeatable
-  processes, and insightful monitoring.</objective>
+  <objective>To obtain a position that builds and maintains valuable and robust computing
+    environments through automation, repeatable processes, and insightful monitoring.</objective>
 
   <skills>
 
     <skill>
-
-      <title>Operations</title>
-
-      <description>Deep experience managing Linux systems and critical
-      infrastructure services. Full life-cycle automation. Resolution of
-      issues in complex distributed systems including self-managed
-      data centers and cloud environments.</description>
-
+      <title>Infrastructure Engineering/DevOps</title>
+      <description>Extensive experience building and managing cloud-based infrastructure via
+        infrastructure as code. Automated routine tasks and processes to increase efficiency and
+        reduce human error. Experience with infrastructure as code tools. Experience with
+        configuration management tools. Experience with DevOps practices and tools (CI/CD pipelines,
+        version control). Heavy exposure to working with containerized workloads and container
+        orchestration</description>
     </skill>
 
     <skill>
+      <title>AWS/Cloud Computing</title>
+      <description>Demonstrated experience with AWS services. Experience with AWS CLI, Ruby SDK, and
+        Python SDK. AWS Certified Solutions Architect - Associate. Certificate in Cloud Computing,
+        University of Washington.</description>
+    </skill>
 
+    <skill>
+      <title>Systems Administration</title>
+      <description>Extensive experience administering Linux systems in production environments.
+        Skilled in configuration management, monitoring, backup and recovery, security, performance
+        tuning, and troubleshooting.</description>
+    </skill>
+
+    <skill>
+      <title>Operations</title>
+      <description>Deep experience managing Linux systems and critical infrastructure services. Full
+        life-cycle automation. Resolution of issues in complex distributed systems including
+        self-managed data centers and cloud environments.</description>
+    </skill>
+
+    <skill>
       <title>Software Development</title>
-
-      <description>Experienced python and ruby developer. Can analyze
-      and debug applications written in many other languages including
-      C, JavaScript, PHP, and Perl. Efficient development with
-      continuous testing, integration, and deployment
-      tools. Theoretical knowledge of software design principles and
-      computer science topics.</description>
-
+      <description>Experienced python and ruby developer. Can analyze and debug applications written
+        in many other languages including C, JavaScript, PHP, and Perl. Efficient development with
+        continuous testing, integration, and deployment tools. Theoretical knowledge of software
+        design principles and computer science topics.</description>
     </skill>
 
   </skills>
@@ -61,283 +66,316 @@
   <employment>
 
     <job>
+
+      <title>Lead Infrastructure Engineer</title>
+      <employer>Tyler Technologies</employer>
+
+      <period>
+        <from>
+          <date>
+            <month>August</month>
+            <year>2019</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>May</month>
+            <year>2025</year>
+          </date>
+        </to>
+      </period>
+
+      <description>
+        <item>Monitored and optimized performance, availability,and scalability of the platform
+        using tools such as Graphite, Grafana, Sumo Logic, Sensu, AWS Cloudwatch.</item>
+        <item>Troubleshoot
+        and resolve production issues and ensure system stability Participate in on-call rotations
+        to provide 24/7 support for the entire platform.</item>
+        <item>AWS services employed: EC2,
+        EBS, RDS, ECS/Fargate, custom AMIs (built with packer), S3, Route53, IAM, cloudformation,
+        cloudwatch, cloudtrail, ALB, ELB, NLB, SNS, SES VPCs, VPC peering, NACL, security group
+        groups, Global Accelerator, S3, EBS, Secrets Manager, Certificate Manager</item>
+        <item>Supported
+        developer's use of AWS.</item>
+        <item>Automatically provisioned and managed SSL certificates.</item>
+        <item>Languages
+        used: bash, python, ruby, SQL, JSON</item>
+        <item>Installed, configured, and trouble shot
+        front end services: nginx, haproxy.</item>
+        <item>Managed container infrastructure: docker,
+        Mesos/Marathon, ECS/Fargate</item>
+        <item>Supported Ubuntu Linux running on instances and
+        containers.</item>
+        <item>Experience with infrastructure as code such as terraform and
+        configuration management tool chef.</item>
+        <item>Used and supported CI/CD pipelines with
+        Jenkins and source code control with git and GitHub.</item>
+        <item>Configured and deployed
+        Palo Alto Next Generation Firewalls as NAT devices and IPsec endpoints with routes
+        distributed with BGP.</item>
+        <item>Configured and maintained OpenVPN.</item>
+        <item>Analyzed
+        security issues, CVEs, evaluating threat level and applicability to the platform. The
+        platform was Internet-facing</item>
+        <item>Supported FedRamp, CJIS, SOC-2 environments and
+        participated in audits.</item>
+      </description>
+
+      <keywords>
+        <keyword>alb</keyword>
+        <keyword>ami</keyword>
+        <keyword>aws cloudwatch</keyword>
+        <keyword>aws</keyword>
+        <keyword>bash</keyword>
+        <keyword>bgp</keyword>
+        <keyword>cd</keyword>
+        <keyword>certificate manager</keyword>
+        <keyword>chef</keyword>
+        <keyword>ci</keyword>
+        <keyword>cjis</keyword>
+        <keyword>cloudformation</keyword>
+        <keyword>cloudtrail</keyword>
+        <keyword>cloudwatch</keyword>
+        <keyword>container</keyword>
+        <keyword>cve</keyword>
+        <keyword>docker</keyword>
+        <keyword>ebs</keyword>
+        <keyword>ec2</keyword>
+        <keyword>ecs/fargate</keyword>
+        <keyword>ecs</keyword>
+        <keyword>elb</keyword>
+        <keyword>fargate</keyword>
+        <keyword>fedramp</keyword>
+        <keyword>firewall</keyword>
+        <keyword>git</keyword>
+        <keyword>github</keyword>
+        <keyword>global accelerator</keyword>
+        <keyword>grafana</keyword>
+        <keyword>graphite</keyword>
+        <keyword>haproxy</keyword>
+        <keyword>iam</keyword>
+        <keyword>internet</keyword>
+        <keyword>ipsec</keyword>
+        <keyword>jenkins</keyword>
+        <keyword>json</keyword>
+        <keyword>kernel</keyword>
+        <keyword>linux</keyword>
+        <keyword>marathon</keyword>
+        <keyword>mesos</keyword>
+        <keyword>monitoring</keyword>
+        <keyword>nacl</keyword>
+        <keyword>nat</keyword>
+        <keyword>nginx</keyword>
+        <keyword>nlb</keyword>
+        <keyword>on-call</keyword>
+        <keyword>openvpn</keyword>
+        <keyword>palo alto</keyword>
+        <keyword>python</keyword>
+        <keyword>rds</keyword>
+        <keyword>route53</keyword>
+        <keyword>ruby</keyword>
+        <keyword>s3</keyword>
+        <keyword>secrets manager</keyword>
+        <keyword>security groups groups</keyword>
+        <keyword>security</keyword>
+        <keyword>sensu</keyword>
+        <keyword>ses vpcs</keyword>
+        <keyword>sns</keyword>
+        <keyword>soc-2</keyword>
+        <keyword>sql</keyword>
+        <keyword>ssl certificates</keyword>
+        <keyword>ssl</keyword>
+        <keyword>sumo logic</keyword>
+        <keyword>terraform</keyword>
+        <keyword>ubuntu</keyword>
+        <keyword>vpc peering</keyword>
+        <keyword>vpn</keyword>
+      </keywords>
+
+    </job>
+
+    <job>
+
       <title>Senior Site Reliability Engineer</title>
       <employer>Skytap, Inc.</employer>
+
       <period>
-	<from><date><month>February</month> <year>2018</year></date></from>
-        <to><present /></to>
+        <from>
+          <date>
+            <month>February</month>
+            <year>2018</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>August</month>
+            <year>2019</year>
+          </date>
+        </to>
       </period>
 
       <description>
-
-	<item>Approved production changes. Mentored junior
-	engineers.</item>
-
-	<item>Managed git source code repositories hosted with GitHub
-	and locally with Gerrit.</item>
-
-	<item>Supported Kubernetes container orchestration system with
-	Docker as the container implementation.</item>
-
-	<item>Managed DNS, DHCP, LDAP, NTP, SMTP, and certificate
-	authority infrastructure services.</item>
-
-	<item>Supported observabity monitoring systems: Zabbix, ELK
-	(Elasticsearch, Logstash, and Kibana) stack and TIG (Telegraf,
-	InfluxDB, Grafana) stack.</item>
-
-	<item>Served as a MySQL DBA: provided operational support,
-	analyzed performance, and planned capacity.</item>
-
-	<item>Participated in open source projects: filed bug reports,
-	suggested fixes, and helped others.</item>
-
+        <item>Managed git source code repositories hosted with GitHub and locally with Gerrit. </item>
+        <item>Supported
+        Kubernetes container orchestration system with Docker as the container implementation. </item>
+        <item>Managed
+        DNS, DHCP, LDAP, NTP, SMTP, and certificate authority infrastructure services.</item>
+        <item>Supported
+        observability monitoring systems: Zabbix, ELK (Elasticsearch, Logstash, and Kibana) stack
+        and TIG (Telegraf, InfluxDB, Grafana) stack. </item>
+        <item>Served as a MySQL DBA: provided
+        operational support, analyzed performance, and planned capacity. </item>
+        <item>Approved
+        production changes. Mentored junior engineers. </item>
+        <item>Participated in open source
+        projects: filed bug reports, suggested fixes, and helped others. </item>
       </description>
+
+      <keywords>
+        <keyword>bind</keyword>
+        <keyword>ca</keyword>
+        <keyword>capacity planning</keyword>
+        <keyword>certificate authority</keyword>
+        <keyword>change management</keyword>
+        <keyword>dba</keyword>
+        <keyword>dhcp</keyword>
+        <keyword>dns</keyword>
+        <keyword>docker</keyword>
+        <keyword>elasticsearch</keyword>
+        <keyword>elk</keyword>
+        <keyword>gerrit</keyword>
+        <keyword>git</keyword>
+        <keyword>github</keyword>
+        <keyword>grafana</keyword>
+        <keyword>influxdb</keyword>
+        <keyword>kibana</keyword>
+        <keyword>kubernetes</keyword>
+        <keyword>ldap</keyword>
+        <keyword>logstash</keyword>
+        <keyword>mentor</keyword>
+        <keyword>mysql</keyword>
+        <keyword>ntp</keyword>
+        <keyword>open source</keyword>
+        <keyword>performance</keyword>
+        <keyword>postfix</keyword>
+        <keyword>powerdns</keyword>
+        <keyword>smtp</keyword>
+        <keyword>telegraf</keyword>
+        <keyword>tig</keyword>
+        <keyword>zabbix</keyword>
+      </keywords>
 
     </job>
 
     <job>
+
       <title>Senior Operations Engineer</title>
       <employer>Skytap, Inc.</employer>
+
       <period>
-        <from><date><month>November</month> <year>2013</year></date></from>
-        <to><date><month>February</month> <year>2018</year></date></to>
+        <from>
+          <date>
+            <month>November</month>
+            <year>2013</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>February</month>
+            <year>2018</year>
+          </date>
+        </to>
       </period>
 
       <description>
-
-	<item>Supported Skytap's global cloud hosting platform based
-	on VMware ESXi, Linux, Solaris, HP hardware, and 3PAR
-	block storage.</item>
-
-	<item>Improved hardware provisioning speed by creating
-	installation checklists and writing scripts to automate device
-	testing and configuration.</item>
-
-	<item>Automated system deployment and configuration with
-	Foreman, Puppet, and Ansible.</item>
-
-	<item>Configured and maintained network infrastructure such as
-	IPSEC VPNs, F5 BigIP load balancers, Juniper routers, and
-	Cisco Nexus switches.</item>
-
+        <item> Supported Skytap's global cloud hosting platform based on VMware ESXi, Linux,
+        Solaris, HP hardware, and 3PAR block storage. </item>
+        <item> Improved hardware provisioning
+        speed by creating installation checklists and writing scripts to automate device testing and
+        configuration. </item>
+        <item> Automated system deployment and configuration with Foreman,
+        Puppet, and Ansible. </item>
+        <item> Configured and maintained network infrastructure such as
+        IPSEC VPNs, F5 BigIP load balancers, Juniper routers, and Cisco Nexus switches. </item>
       </description>
+
+      <keywords>
+        <keyword>3par</keyword>
+        <keyword>ansible</keyword>
+        <keyword>bash</keyword>
+        <keyword>cisco</keyword>
+        <keyword>esxi</keyword>
+        <keyword>f5</keyword>
+        <keyword>foreman</keyword>
+        <keyword>ipsec</keyword>
+        <keyword>juniper</keyword>
+        <keyword>linux</keyword>
+        <keyword>proliant</keyword>
+        <keyword>puppet</keyword>
+        <keyword>solaris</keyword>
+        <keyword>vmware</keyword>
+      </keywords>
 
     </job>
 
     <job>
+
       <title>Senior System Administrator</title>
       <employer>Point Inside, Inc.</employer>
+
       <period>
-        <from><date><month>February</month> <year>2013</year></date></from>
-        <to><date><month>November</month> <year>2013</year></date></to>
+        <from>
+          <date>
+            <month>February</month>
+            <year>2013</year>
+          </date>
+        </from>
+        <to>
+          <date>
+            <month>November</month>
+            <year>2013</year>
+          </date>
+        </to>
       </period>
 
       <description>
-
-	<item>Managed AWS resources (EC2, VPC, RDS, SQS, SNS,
-	CloudWatch) with command line tools and custom Ruby
-	scripts using the AWS SDK.</item>
-
-	<item>Designed and implemented scalable architecture with AWS
-	Auto Scaling.</item>
-
-	<item>Maintained infrastructure with chef. Wrote custom chef
-	cookbooks.</item>
-
-	<item>Wrote release automation scripts.</item>
-
-	<item>Diagnosed and helped resolve HAProxy, Apache, Tomcat,
-	and Solr issues at the network, server, and application
-	levels.</item>
-
-	<item>Mentored and trained junior system
-	administrators.</item>
-
-	<item>Researched new AWS services and other cloud technologies.</item>
-
+        <item> Managed AWS resources (EC2, VPC, RDS, SQS, SNS, CloudWatch) with command line tools
+        and custom Ruby scripts using the AWS SDK. </item>
+        <item> Designed and implemented scalable
+        architecture with AWS Auto Scaling. </item>
+        <item> Maintained infrastructure with chef. Wrote
+        custom chef cookbooks. </item>
+        <item>Wrote release automation scripts.</item>
+        <item> Diagnosed
+        and helped resolve HAProxy, Apache, Tomcat, and Solr issues at the network, server, and
+        application levels. </item>
+        <item> Mentored and trained junior system administrators. </item>
+        <item>Researched
+        new AWS services and other cloud technologies.</item>
       </description>
 
-    </job>
-
-    <job>
-      <title>Senior System Administrator</title>
-      <employer>Intelius, Inc.</employer>
-      <period>
-        <from><date><month>July</month> <year>2010</year></date></from>
-        <to><date><month>February</month> <year>2013</year></date></to>
-      </period>
-
-      <description>
-
-	<item>Identified and resolved system faults and performance
-	problems by debugging PHP code, running Apache under a
-	debugger, examining MySQL statistics, and analyzing OS and
-	kernel metrics.</item>
-
-	<item>Analyzed, documented, and remediated PCI compliance
-	issues.</item>
-
-	<item>Evaluated hybrid cloud systems and implemented the
-	OpenNebula / KVM platform.</item>
-
-	<item>Installed and administered a Hadoop cluster.</item>
-
-	<item>Handled custom compilation and deployment of Apache,
-	PHP, and other software packages.</item>
-
-	<item>Maintained configuration of the SEC log analysis system,
-	BIND DNS servers, and cfengine configuration management
-	software.</item>
-
-	<item>Administered SAN and NAS storage systems.</item>
-
-	<item>Researched and prototyped new system administration
-	software and methodologies.</item>
-
-	<item>Served as a backup MySQL DBA. Wrote automated database
-	publishing scripts.</item>
-
-      </description>
+      <keywords>
+        <keyword>apache</keyword>
+        <keyword>automation</keyword>
+        <keyword>aws cli</keyword>
+        <keyword>aws ruby sdk</keyword>
+        <keyword>aws</keyword>
+        <keyword>chef</keyword>
+        <keyword>cloudwatch</keyword>
+        <keyword>ec2</keyword>
+        <keyword>haproxy</keyword>
+        <keyword>mentor</keyword>
+        <keyword>networking</keyword>
+        <keyword>rds</keyword>
+        <keyword>ruby</keyword>
+        <keyword>sns</keyword>
+        <keyword>solr</keyword>
+        <keyword>sqs</keyword>
+        <keyword>tomcat</keyword>
+        <keyword>vpc</keyword>
+      </keywords>
 
     </job>
-
-    <job>
-      <title>Senior Systems Administrator</title>
-      <employer>Infopia, Inc.</employer>
-      <period>
-        <from><date><month>December</month> <year>2008</year></date></from>
-        <to><date><month>March</month> <year>2010</year></date></to>
-      </period>
-
-      <description>
-
-	<item>System and SAN administrator for servers running
-	Infopia's business-critical ecommerce SaaS system.</item>
-
-	<item>Planned and implemented data center migration from managed
-	hosting to new servers in a self-hosted environment.</item>
-
-	<item>Installed and configured infrastructure servers: DNS,
-	mail, LDAP, backup, and monitoring.</item>
-
-      </description>
-
-    </job>
-
-    <job>
-      <title>Systems Programmer</title>
-      <employer>University of Washington Medical Center</employer>
-      <period>
-        <from><date><month>October</month> <year>2001</year></date></from>
-        <to><date><month>December</month> <year>2008</year></date></to>
-      </period>
-
-      <description>
-
-	<item>Lead development of enterprise-wide Linux
-	standard.</item>
-
-        <item>Developed automated Linux installation and maintenance
-        process.</item>
-
-	<item>Trained junior sysadmins.</item>
-
-	<item>Handled all aspects of system security in an unsecured,
-	Internet-connected environment, including vulnerability analysis,
-	subnet and host-based firewalls, and system hardening.</item>
-
-	<item>Provided support for computer-controlled medical equipment,
-	including imaging modalities and radiation treatment devices.</item>
-
-	<item>Provided software installation and support. Compiled
-	software from source. Performed fault analysis using system
-	tools and debuggers.</item>
-
-	<item>Performed system capacity planning and hardware
-	acquisition.</item>
-
-      </description>
-
-    </job>
-
-<!--
-    <job>
-      <title>Internet Systems Developer and Administrator</title>
-      <employer>Horvitz Newspapers Inc</employer>
-      <period>
-        <from><date><month>October</month> <year>1998</year></date></from>
-        <to><date><month>October</month> <year>2001</year></date></to>
-      </period>
-
-      <description>
-
-        <item>Designed and coded automated web site generation
-        and archiving system in Perl.</item>
-
-        <item>Webmaster duties: Compiled, installed, troubleshot, and
-        performance tuned Apache.</item>
-
-        <item>Security administrator for web sites and
-        firewalls. Evaluated Internet-related security risks. Set up and
-        maintained Linux-based firewalls.</item>
-
-        <item>Installed and maintained DNS, ftp, monitoring, and
-        backup servers and Sun and x86 hardware.</item>
-
-      </description>
-    </job>
-
-    <job>
-      <title>Fraud Application Support</title>
-      <employer>AT&amp;T Wireless Services Inc</employer>
-      <period>
-        <from><date><month>January</month> <year>1998</year></date></from>
-        <to><date><month>October</month> <year>1998</year></date></to>
-      </period>
-      <description>
-  
-        <item>Provided technical support to customers (Los Angeles
-        Cellular, Cantel).</item>
-
-        <item>Planned projects and solved problems in a complex
-        environment involving vendor, customer, AT&amp;T, and VAN
-        systems.</item>
-
-        <item>Trained support personnel.</item>
-
-        <item>Participated in CTIA EDI standards writing
-        process.</item>
-
-        <item>Wrote parts of application support guide.</item>
-
-        <item>Designed and implemented enhancements to fraud
-        application.</item>
-
-        <item>Wrote maintenance scripts in Perl and ksh.</item>
-
-      </description>
-
-    </job>
-
-    <job>
-      <title>Unix System Administrator</title>
-      <employer>Ameritech Communications Inc</employer>
-      <period>
-        <from><date><month>May</month> <year>1996</year></date></from>
-        <to><date><month>August</month> <year>1997</year></date></to>
-      </period>
-      <description>
-
-        <item>Administered Sun and HP servers.</item>
-
-        <item>Installed and tuned Solaris.</item>
-
-        <item>Installed and upgraded hardware.</item>
-
-      </description>
-    </job>
--->
 
   </employment>
 
@@ -349,15 +387,28 @@
         <level>Master of Science</level>
         <subject>Computer Science</subject>
         <institution> University of Washington-Seattle</institution>
-        <date><month>March</month> <year>2003</year></date>
+        <date>
+          <month>March</month>
+          <year>2003</year>
+        </date>
       </degree>
 
       <degree>
         <subject>Computer Science, Philosophy</subject>
         <institution>University of Wisconsin-Madison</institution>
         <period>
-          <from><date><month>August</month> <year>1992</year></date></from>
-          <to><date><month>May</month> <year>1996</year></date></to>
+          <from>
+            <date>
+              <month>August</month>
+              <year>1992</year>
+            </date>
+          </from>
+          <to>
+            <date>
+              <month>May</month>
+              <year>1996</year>
+            </date>
+          </to>
         </period>
       </degree>
 
@@ -365,37 +416,153 @@
         <level>Bachelor of Arts</level>
         <subject>Philosophy</subject>
         <institution>Lawrence University</institution>
-        <date><month>June</month> <year>1992</year></date>
+        <date>
+          <month>June</month>
+          <year>1992</year>
+        </date>
       </degree>
 
     </degrees>
 
     <certifications>
 
+      <certification>AWS Certified Solutions Architect - Associate</certification>
       <certification>Certificate in Cloud Computing, University of Washington</certification>
 
     </certifications>
 
   </academics>
 
+  <!-- global keywords -->
+  <keywords>
+    <keyword>3par</keyword>
+    <keyword>agile</keyword>
+    <keyword>alb</keyword>
+    <keyword>ami</keyword>
+    <keyword>ansible</keyword>
+    <keyword>apache</keyword>
+    <keyword>automation</keyword>
+    <keyword>aws cli</keyword>
+    <keyword>aws cloudwatch</keyword>
+    <keyword>aws ruby sdk</keyword>
+    <keyword>aws</keyword>
+    <keyword>bash</keyword>
+    <keyword>bgp</keyword>
+    <keyword>bind</keyword>
+    <keyword>c</keyword>
+    <keyword>ca</keyword>
+    <keyword>capacity planning</keyword>
+    <keyword>cd</keyword>
+    <keyword>certificate authority</keyword>
+    <keyword>certificate manager</keyword>
+    <keyword>change management</keyword>
+    <keyword>chef</keyword>
+    <keyword>ci/cd</keyword>
+    <keyword>ci</keyword>
+    <keyword>cisco</keyword>
+    <keyword>cjis</keyword>
+    <keyword>cloudformation</keyword>
+    <keyword>cloudtrail</keyword>
+    <keyword>cloudwatch</keyword>
+    <keyword>container</keyword>
+    <keyword>cve</keyword>
+    <keyword>dba</keyword>
+    <keyword>devops</keyword>
+    <keyword>dhcp</keyword>
+    <keyword>dns</keyword>
+    <keyword>docker</keyword>
+    <keyword>ebs</keyword>
+    <keyword>ec2</keyword>
+    <keyword>ecs/fargate</keyword>
+    <keyword>ecs</keyword>
+    <keyword>elasticsearch</keyword>
+    <keyword>elb</keyword>
+    <keyword>elk</keyword>
+    <keyword>esxi</keyword>
+    <keyword>f5</keyword>
+    <keyword>fargate</keyword>
+    <keyword>fedramp</keyword>
+    <keyword>firewall</keyword>
+    <keyword>foreman</keyword>
+    <keyword>freebsd</keyword>
+    <keyword>gentoo linux</keyword>
+    <keyword>gerrit</keyword>
+    <keyword>git</keyword>
+    <keyword>github</keyword>
+    <keyword>global accelerator</keyword>
+    <keyword>grafana</keyword>
+    <keyword>graphite</keyword>
+    <keyword>haproxy</keyword>
+    <keyword>html</keyword>
+    <keyword>iam</keyword>
+    <keyword>influxdb</keyword>
+    <keyword>infrastructure as code</keyword>
+    <keyword>internet</keyword>
+    <keyword>ipsec</keyword>
+    <keyword>jenkins</keyword>
+    <keyword>json</keyword>
+    <keyword>juniper</keyword>
+    <keyword>kernel</keyword>
+    <keyword>kibana</keyword>
+    <keyword>kubernetes</keyword>
+    <keyword>ldap</keyword>
+    <keyword>linux</keyword>
+    <keyword>logstash</keyword>
+    <keyword>marathon</keyword>
+    <keyword>markdown</keyword>
+    <keyword>mentor</keyword>
+    <keyword>mesos</keyword>
+    <keyword>monitoring</keyword>
+    <keyword>mysql</keyword>
+    <keyword>nacl</keyword>
+    <keyword>nat</keyword>
+    <keyword>networking</keyword>
+    <keyword>nginx</keyword>
+    <keyword>nlb</keyword>
+    <keyword>ntp</keyword>
+    <keyword>on-call</keyword>
+    <keyword>open source</keyword>
+    <keyword>openvpn</keyword>
+    <keyword>palo alto</keyword>
+    <keyword>performance</keyword>
+    <keyword>perl</keyword>
+    <keyword>postfix</keyword>
+    <keyword>powerdns</keyword>
+    <keyword>proliant</keyword>
+    <keyword>puppet</keyword>
+    <keyword>python</keyword>
+    <keyword>rds</keyword>
+    <keyword>rhel (red hat enterprise linux}</keyword>
+    <keyword>route53</keyword>
+    <keyword>ruby</keyword>
+    <keyword>s3</keyword>
+    <keyword>secrets manager</keyword>
+    <keyword>security groups groups</keyword>
+    <keyword>security</keyword>
+    <keyword>sensu</keyword>
+    <keyword>ses vpcs</keyword>
+    <keyword>smtp</keyword>
+    <keyword>sns</keyword>
+    <keyword>soc-2</keyword>
+    <keyword>solaris</keyword>
+    <keyword>solr</keyword>
+    <keyword>sql</keyword>
+    <keyword>sqs</keyword>
+    <keyword>ssl certificates</keyword>
+    <keyword>ssl</keyword>
+    <keyword>sumo logic</keyword>
+    <keyword>telegraf</keyword>
+    <keyword>terraform</keyword>
+    <keyword>tig</keyword>
+    <keyword>tomcat</keyword>
+    <keyword>toml</keyword>
+    <keyword>ubuntu</keyword>
+    <keyword>vmware</keyword>
+    <keyword>vpc peering</keyword>
+    <keyword>vpc</keyword>
+    <keyword>vpn</keyword>
+    <keyword>yaml</keyword>
+    <keyword>zabbix</keyword>
+  </keywords>
+
 </resume>
-
-
-<!-- LocalWords:  Solaris PHP Intelius PCI DNS cfengine MySQL DBA Infopia SaaS
--->
-<!-- LocalWords:  Infopia's ecommerce LDAP subnet Horvitz Los Angeles Cantel IP
--->
-<!-- LocalWords:  CTIA ksh Sybase Ameritech RHEL TCP FreeBSD iptables NFS IMAP
--->
-<!-- LocalWords:  sendmail Sparc UDP kickstart RHCE EMC th remediated Hadoop
--->
-<!-- LocalWords:  Cloudera hadoop Ubuntu OpenNebula KVM NAS LUN filesystem
--->
-<!--  LocalWords:  AWS VPC HAProxy Solr modalities EDI RDS SQS SNS
--->
-<!--  LocalWords:  CloudWatch SDK DSS HIPPA ansible Gerrit RTO RPOs
--->
-<!-- LocalWords:  Kubernetes DHCP NTP SMTP Zabbix Logstash Kibana TIG
--->
-<!-- LocalWords:  Telegraf InfluxDB Grafana
--->

@@ -11,6 +11,7 @@
 
 <xsl:strip-space elements="*"/>
 <xsl:preserve-space elements="addr_line"/>
+<xsl:template match="keywords"/>
 
 <xsl:param name="PAGE_WIDTH">70</xsl:param>
 <xsl:param name="BULLET">*</xsl:param>
@@ -496,7 +497,5 @@
   <xsl:value-of select="."/>
   <xsl:text> &lt;</xsl:text><xsl:apply-templates select="@href"/><xsl:text>></xsl:text>
 </xsl:template>
-
-<xsl:template match="keywords"/>
 
 </xsl:stylesheet>

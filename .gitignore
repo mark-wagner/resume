@@ -1,6 +1,8 @@
+.vscode
+mw.html
 mw.lint.resume
 mw.log
+mw.pdf
+mw.tex
+mw.txt
 mw.untidy.html
-pdftex.fmt
-pdftex.log
-*~

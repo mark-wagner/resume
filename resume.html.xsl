@@ -12,6 +12,7 @@
 
 <xsl:strip-space elements="*"/>
 <xsl:preserve-space elements="addr_line"/>
+<xsl:template match="keywords"/>
 
 <xsl:template match="/">
   <html>
@@ -22,7 +23,6 @@
         </xsl:comment>    
       </style>
 
-      <xsl:apply-templates select="resume/keywords" mode="head"/>
       <title><xsl:apply-templates select="resume/header/name"/>'s Resume</title>
     </head>
     <body>
@@ -45,25 +45,6 @@
 
     </body>
   </html>
-</xsl:template>
-
-<!-- keywords -->
-
-<xsl:template match="keywords"/>
-
-<xsl:template match="keywords" mode="head">
-  <meta name="keywords">
-    <xsl:attribute name="content">
-      <xsl:apply-templates select="keyword"/>
-    </xsl:attribute>
-  </meta>
-</xsl:template>
-
-<xsl:template match="keyword">
-  <xsl:value-of select="."/>
-  <xsl:if test="position() != last()">
-    <xsl:text>, </xsl:text>
-  </xsl:if>
 </xsl:template>
 
 <!-- header -->

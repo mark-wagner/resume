@@ -11,6 +11,7 @@
 
 <xsl:strip-space elements="*"/>
 <xsl:preserve-space elements="addr_line"/>
+<xsl:template match="keywords"/>
 
 <xsl:template match="/">
   \font\bigbigbf = cmb10 scaled \magstep 2
@@ -158,10 +159,6 @@
 <xsl:template match="subject | institution">
   <xsl:value-of select="normalize-space(.)"/>
 </xsl:template>
-
-<!-- keywords -->
-
-<xsl:template match="keywords"/>
 
 <!-- escape special tex characters -->
 
