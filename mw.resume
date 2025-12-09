@@ -53,14 +53,6 @@
         self-managed data centers and cloud environments.</description>
     </skill>
 
-    <skill>
-      <title>Software Development</title>
-      <description>Experienced python and ruby developer. Can analyze and debug applications written
-        in many other languages including C, JavaScript, PHP, and Perl. Efficient development with
-        continuous testing, integration, and deployment tools. Theoretical knowledge of software
-        design principles and computer science topics.</description>
-    </skill>
-
   </skills>
 
   <employment>
@@ -144,7 +136,6 @@
         <keyword>ecs/fargate</keyword>
         <keyword>ecs</keyword>
         <keyword>elb</keyword>
-        <keyword>fargate</keyword>
         <keyword>fedramp</keyword>
         <keyword>firewall</keyword>
         <keyword>git</keyword>
@@ -179,7 +170,8 @@
         <keyword>security groups groups</keyword>
         <keyword>security</keyword>
         <keyword>sensu</keyword>
-        <keyword>ses vpcs</keyword>
+        <keyword>ses</keyword>
+        <keyword>vpcs</keyword>
         <keyword>sns</keyword>
         <keyword>soc-2</keyword>
         <keyword>sql</keyword>
