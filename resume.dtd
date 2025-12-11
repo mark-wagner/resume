@@ -94,7 +94,7 @@ community | society | metroplex | county | apartment | suite | unit">
      contact
 -->
 
-<!ELEMENT contact (phone?, email?, website?)>
+<!ELEMENT contact (phone?, email?, website*)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT website (#PCDATA)>

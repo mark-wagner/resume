@@ -10,9 +10,15 @@
       <surname>Wagner</surname>
     </name>
 
+    <address>
+      <addr_line><city>Seattle</city> <state>WA</state>
+    <zip>98112</zip></addr_line>
+    </address>
+
     <contact>
       <phone>(206) 354-9071</phone>
       <email>mark@lanfear.net</email>
+      <website>https://github.com/mark-wagner/</website>
     </contact>
 
   </header>
